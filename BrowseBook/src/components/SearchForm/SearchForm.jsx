@@ -31,7 +31,7 @@ const SearchForm = () => {
                         <div className='search-form-elem flex flex-sb bg-white'>
                             <input type="text" className='form-control' placeholder='Search Here' ref={searchText} />
                             <button type="submit" className='flex flex-c' onClick={handleSubmit}>
-                                <FaSearch className='text-purple' size={32} />
+                                <FaSearch className='text-green' size={32} />
                             </button>
                         </div>
                     </form>

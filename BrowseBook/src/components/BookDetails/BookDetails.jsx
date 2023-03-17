@@ -6,7 +6,7 @@ import "./BookDetails.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 //https://openlibrary.org/works/
-const URL = "https://openlibrary.org/developers/api";
+const URL = "https://openlibrary.org/works/";
 
 const BookDetails = () => {
     const { id } = useParams();
